@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter names in the fields, then click "Submit" to submit the form:</p>
+
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+function myFunction() {
+    document.getElementById("frm1").submit();
+}
+</script>
+
+</body>
+</html>
+#NiceHexSpiral.py
+import turtle
+Colors=['red', 'purple', 'blue',
+           'green', 'yellow', 'orange']
+T=tutrle.Pen()
+turtle.bgcolor('black')
+for x in range (360):
+    t.pencolor(colors[x%6])
+    t.width(x/100+1)
+    t.forward(x)
+    t.left(59)
